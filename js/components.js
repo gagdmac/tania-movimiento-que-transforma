@@ -32,9 +32,9 @@ class SiteHeader extends HTMLElement {
     const page = this.getAttribute('current-page') || '';
     const navItems = [
       { href: '/', key: 'nav.home', label: 'Inicio', page: 'index' },
-      { href: '/youtube/', key: 'nav.youtube', label: 'YouTube', page: 'youtube' },
-      { href: '/events/', key: 'nav.events', label: 'Events', page: 'events', hidden: true },
-      { href: '/contacto/', key: 'nav.contact', label: 'Contacto', page: 'contacto' }
+      { href: '/content/youtube/', key: 'nav.youtube', label: 'YouTube', page: 'youtube' },
+      { href: '/content/events/', key: 'nav.events', label: 'Events', page: 'events', hidden: true },
+      { href: '/content/contacto/', key: 'nav.contact', label: 'Contacto', page: 'contacto' }
     ];
 
     const navHTML = navItems.map(item => {
@@ -93,23 +93,23 @@ class SiteFooter extends HTMLElement {
             <p class="footer-brand">Tania<span>.</span></p>
             <p class="footer-desc" data-i18n="footer.desc">Acompaño a mujeres a fortalecer su cuerpo, cuidar su centro y reconectar con su bienestar a través de movimiento que transforma.</p>
             <div class="footer-social mt-4">
-              <a href="#" aria-label="YouTube"><i class="fab fa-youtube" aria-hidden="true"></i></a>
-              <a href="#" aria-label="Instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+              <a href="https://www.youtube.com/@taniaangulo" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><i class="fab fa-youtube" aria-hidden="true"></i></a>
+              <a href="https://www.instagram.com/taniaangulo/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
             </div>
           </div>
           <div class="col-6 col-lg-2">
             <h3 class="footer-heading" data-i18n="footer.nav">Navegación</h3>
             <ul class="footer-links" role="list">
               <li><a href="/" data-i18n="nav.home">Inicio</a></li>
-              <li><a href="/youtube/" data-i18n="nav.youtube">YouTube</a></li>
-              <li hidden><a href="/events/" data-i18n="nav.events">Events</a></li>
-              <li><a href="/contacto/" data-i18n="nav.contact">Contacto</a></li>
+              <li><a href="/content/youtube/" data-i18n="nav.youtube">YouTube</a></li>
+              <li hidden><a href="/content/events/" data-i18n="nav.events">Events</a></li>
+              <li><a href="/content/contacto/" data-i18n="nav.contact">Contacto</a></li>
             </ul>
           </div>
           <div class="col-6 col-lg-2">
             <h3 class="footer-heading" data-i18n="footer.a11y">Accesibilidad</h3>
             <ul class="footer-links" role="list">
-              <li><a href="/accesibilidad/" data-i18n="footer.a11y"><i class="fas fa-universal-access" aria-hidden="true"></i> Accesibilidad</a></li>
+              <li><a href="/content/accesibilidad/" data-i18n="footer.a11y"><i class="fas fa-universal-access" aria-hidden="true"></i> Accesibilidad</a></li>
             </ul>
           </div>
           <div class="col-12 col-lg-4">

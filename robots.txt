@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+Disallow: /.git/
+Disallow: /node_modules/
+Disallow: /.github/
+Disallow: /.vscode/
+Disallow: /styles/
+Disallow: /assets/example/
+Disallow: /assets/content/
+
+Sitemap: https://www.taniaangulo.com/sitemap.xml

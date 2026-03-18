@@ -32,9 +32,9 @@ class SiteHeader extends HTMLElement {
     const page = this.getAttribute('current-page') || '';
     const navItems = [
       { href: '/', key: 'nav.home', label: 'Inicio', page: 'index' },
-      { href: '/content/youtube/', key: 'nav.youtube', label: 'YouTube', page: 'youtube' },
-      { href: '/content/events/', key: 'nav.events', label: 'Events', page: 'events', hidden: true },
-      { href: '/content/contacto/', key: 'nav.contact', label: 'Contacto', page: 'contacto' }
+      { href: '/youtube/', key: 'nav.youtube', label: 'YouTube', page: 'youtube' },
+      { href: '/events/', key: 'nav.events', label: 'Events', page: 'events', hidden: true },
+      { href: '/contacto/', key: 'nav.contact', label: 'Contacto', page: 'contacto' }
     ];
 
     const navHTML = navItems.map(item => {
@@ -101,15 +101,15 @@ class SiteFooter extends HTMLElement {
             <h3 class="footer-heading" data-i18n="footer.nav">Navegación</h3>
             <ul class="footer-links" role="list">
               <li><a href="/" data-i18n="nav.home">Inicio</a></li>
-              <li><a href="/content/youtube/" data-i18n="nav.youtube">YouTube</a></li>
-              <li hidden><a href="/content/events/" data-i18n="nav.events">Events</a></li>
-              <li><a href="/content/contacto/" data-i18n="nav.contact">Contacto</a></li>
+              <li><a href="/youtube/" data-i18n="nav.youtube">YouTube</a></li>
+              <li hidden><a href="/events/" data-i18n="nav.events">Events</a></li>
+              <li><a href="/contacto/" data-i18n="nav.contact">Contacto</a></li>
             </ul>
           </div>
           <div class="col-6 col-lg-2">
             <h3 class="footer-heading" data-i18n="footer.a11y">Accesibilidad</h3>
             <ul class="footer-links" role="list">
-              <li><a href="/content/accesibilidad/" data-i18n="footer.a11y"><i class="fas fa-universal-access" aria-hidden="true"></i> Accesibilidad</a></li>
+              <li><a href="/accesibilidad/" data-i18n="footer.a11y"><i class="fas fa-universal-access" aria-hidden="true"></i> Accesibilidad</a></li>
             </ul>
           </div>
           <div class="col-12 col-lg-4">

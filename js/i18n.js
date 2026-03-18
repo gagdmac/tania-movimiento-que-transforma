@@ -5,15 +5,31 @@
 
 class I18n {
   constructor() {
-    this.currentLang = this.getStoredLanguage() || this.detectLanguage();
+    this.supported = ['es', 'en', 'pt'];
+    this.currentLang = this.getUrlLanguage() || this.getStoredLanguage() || this.detectLanguage();
     this.translations = {};
     this.fallbackLang = 'es';
   }
 
   detectLanguage() {
     const browserLang = navigator.language.split('-')[0];
-    const supported = ['es', 'en', 'pt'];
-    return supported.includes(browserLang) ? browserLang : 'es';
+    return this.supported.includes(browserLang) ? browserLang : 'es';
+  }
+
+  getUrlLanguage() {
+    const params = new URLSearchParams(window.location.search);
+    const lang = params.get('lang');
+    return lang && this.supported.includes(lang) ? lang : null;
+  }
+
+  updateUrlLanguage(lang) {
+    const url = new URL(window.location);
+    if (lang === this.fallbackLang) {
+      url.searchParams.delete('lang');
+    } else {
+      url.searchParams.set('lang', lang);
+    }
+    history.replaceState(null, '', url);
   }
 
   getStoredLanguage() {
@@ -98,6 +114,7 @@ class I18n {
 
     this.currentLang = lang;
     this.setStoredLanguage(lang);
+    this.updateUrlLanguage(lang);
     this.updateContent();
 
     document.querySelectorAll('.lang-btn').forEach(btn => {

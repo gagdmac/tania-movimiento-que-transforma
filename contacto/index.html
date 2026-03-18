@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="es" class="no-js" data-theme="light" data-high-contrast="false" data-reduce-motion="false" data-highlight-focus="false" data-underline-links="false">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto · Tania Angulo</title>
+  <meta name="description" content="Contacta con Tania Angulo para programar una clase, colaborar o resolver cualquier duda sobre movimiento que transforma.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <script>
+    (function(){var t=localStorage.getItem('ta-theme');if(t)document.documentElement.setAttribute('data-theme',t);else if(window.matchMedia('(prefers-color-scheme:dark)').matches)document.documentElement.setAttribute('data-theme','dark');if(localStorage.getItem('ta-contrast')==='true')document.documentElement.setAttribute('data-high-contrast','true');if(localStorage.getItem('ta-motion')==='true'||window.matchMedia('(prefers-reduced-motion:reduce)').matches)document.documentElement.setAttribute('data-reduce-motion','true');if(localStorage.getItem('ta-focus')==='true')document.documentElement.setAttribute('data-highlight-focus','true');if(localStorage.getItem('ta-links')==='true')document.documentElement.setAttribute('data-underline-links','true');var s=localStorage.getItem('ta-text-scale');if(s){document.documentElement.style.setProperty('--a11y-text-scale',s);document.documentElement.setAttribute('data-text-zoom',s);}})()
+  </script>
+  <script src="../js/components.js"></script>
+</head>
+<body>
+
+  <site-header current-page="contacto"></site-header>
+
+  <main id="main-content">
+
+    <!-- ── HERO ── -->
+    <section class="hero-section contact-hero" aria-labelledby="contact-hero-heading">
+      <div class="hero-bg-shapes" aria-hidden="true">
+        <div class="shape shape-1" style="background: var(--brand-lavender-soft);"></div>
+        <div class="shape shape-2" style="background: var(--brand-green-soft);"></div>
+        <div class="shape shape-3" style="background: var(--brand-coral-soft);"></div>
+      </div>
+
+      <div class="container">
+        <div class="row align-items-center g-5 px-4">
+          <!-- Text column -->
+          <div class="col-12 col-lg-6 hero-content">
+            <p class="section-label" data-i18n="contact.hero.label"><i class="fas fa-envelope" aria-hidden="true"></i> Contacto</p>
+            <h1 id="contact-hero-heading" class="hero-title">
+              <span data-i18n="contact.hero.title1">Hablemos de tu</span> <span class="accent-green" data-i18n="contact.hero.title2">bienestar</span>
+            </h1>
+            <p class="hero-subtitle px-2" data-i18n="contact.hero.subtitle">Escríbeme para programar una clase, colaborar o resolver cualquier duda sobre movimiento que transforma.</p>
+
+            <div class="hero-cta-group">
+              <a href="#contact-form" class="btn-brand btn-primary-brand" data-i18n="contact.hero.cta">
+                <i class="fas fa-paper-plane" aria-hidden="true"></i> Escríbeme
+              </a>
+            </div>
+          </div>
+
+          <!-- Image column -->
+          <div class="col-12 col-lg-6">
+            <div class="contact-hero-image reveal">
+              <img src="../assets/pics/TaniaAngplayavertical.jpg" alt="Tania Angulo en la playa de Alicante" loading="eager" fetchpriority="high" width="500" height="650">
+              <div class="contact-hero-image-accent" aria-hidden="true"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── FORM + INFO ── -->
+    <section class="section" aria-labelledby="contact-form-heading">
+      <div class="container">
+        <div class="row g-5">
+          <!-- Contact form -->
+          <div class="col-12 col-lg-7 reveal">
+            <h2 id="contact-form-heading" class="visually-hidden" data-i18n="contact.form.heading">Formulario de contacto</h2>
+            <form id="contact-form" novalidate aria-label="Formulario de contacto" data-i18n-aria="contact.form.heading">
+              <div class="row g-4">
+                <div class="col-12 col-md-6">
+                  <div class="form-group">
+                    <label for="contact-name" class="form-label-brand" data-i18n="contact.form.name">Nombre</label>
+                    <input type="text" id="contact-name" name="name" class="form-input" required autocomplete="name" data-i18n-placeholder="contact.form.namePh" placeholder="Tu nombre" aria-required="true" aria-describedby="contact-name-error">
+                    <p class="form-error" id="contact-name-error" role="alert" aria-live="assertive"></p>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6">
+                  <div class="form-group">
+                    <label for="contact-email" class="form-label-brand" data-i18n="contact.form.email">Email</label>
+                    <input type="email" id="contact-email" name="email" class="form-input" required autocomplete="email" data-i18n-placeholder="contact.form.emailPh" placeholder="tu@email.com" aria-required="true" aria-describedby="contact-email-error">
+                    <p class="form-error" id="contact-email-error" role="alert" aria-live="assertive"></p>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="form-group">
+                    <label for="contact-subject" class="form-label-brand" data-i18n="contact.form.subject">Asunto</label>
+                    <input type="text" id="contact-subject" name="subject" class="form-input" required data-i18n-placeholder="contact.form.subjectPh" placeholder="Asunto de tu mensaje" aria-required="true" aria-describedby="contact-subject-error">
+                    <p class="form-error" id="contact-subject-error" role="alert" aria-live="assertive"></p>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="form-group">
+                    <label for="contact-message" class="form-label-brand" data-i18n="contact.form.message">Mensaje</label>
+                    <textarea id="contact-message" name="message" class="form-input" required rows="6" data-i18n-placeholder="contact.form.messagePh" placeholder="Escribe tu mensaje..." aria-required="true" aria-describedby="contact-message-error"></textarea>
+                    <p class="form-error" id="contact-message-error" role="alert" aria-live="assertive"></p>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <button type="submit" class="btn-brand btn-primary-brand" data-i18n="contact.form.submit">
+                    <i class="fas fa-paper-plane" aria-hidden="true"></i> Enviar mensaje
+                  </button>
+                  <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <!-- Contact info sidebar -->
+          <div class="col-12 col-lg-5 reveal reveal-delay-2">
+            <div class="d-flex flex-column gap-4">
+
+              <div class="contact-info-card">
+                <div class="contact-info-icon" style="background: var(--accent-secondary-subtle); color: var(--accent-secondary);" aria-hidden="true"><i class="fas fa-share-alt"></i></div>
+                <div>
+                  <p class="fw-bold" data-i18n="contact.info.social">Redes sociales</p>
+                  <div class="footer-social mt-2">
+                    <a href="#" aria-label="YouTube"><i class="fab fa-youtube" aria-hidden="true"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="contact-info-card">
+                <div class="contact-info-icon" style="background: var(--accent-tertiary-subtle); color: var(--accent-tertiary);" aria-hidden="true"><i class="fas fa-map-marker-alt"></i></div>
+                <div>
+                  <p class="fw-bold" data-i18n="contact.info.location">Ubicación</p>
+                  <p data-i18n="contact.info.city">Alicante, España</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Inspirational message -->
+            <div class="cta-banner mt-5 reveal" style="padding: var(--space-8);">
+              <p class="section-label" aria-hidden="true" data-i18n="contact.motto">Movimiento · Fuerza · Bienestar</p>
+              <p style="font-family: var(--font-display); font-size: var(--text-xl); font-weight: 500; font-style: italic; margin: 0;" data-i18n="contact.quote">
+                "Entrena con inteligencia. Muévete con conciencia. Siéntete más fuerte."
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── CTA ── -->
+    <section class="section section-alt" aria-labelledby="contact-cta-heading">
+      <div class="container">
+        <div class="cta-banner reveal">
+          <h2 id="contact-cta-heading" data-i18n="contact.cta.title">Únete a la comunidad</h2>
+          <p class="lead" data-i18n="contact.cta.text">Sígueme en redes sociales y no te pierdas ninguna novedad.</p>
+          <div class="hero-cta-group">
+            <a href="#" class="btn-brand btn-secondary-brand" target="_blank" rel="noopener noreferrer" aria-label="Suscríbete a YouTube" data-i18n-aria="contact.cta.ytLabel">
+              <i class="fab fa-youtube" aria-hidden="true"></i> YouTube
+            </a>
+            <a href="#" class="btn-brand btn-lavender" target="_blank" rel="noopener noreferrer" aria-label="Sígueme en Instagram" data-i18n-aria="contact.cta.igLabel">
+              <i class="fab fa-instagram" aria-hidden="true"></i> Instagram
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <site-footer></site-footer>
+
+  <!-- EmailJS SDK -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+  <script src="../js/i18n.js"></script>
+  <script src="../js/main.js"></script>
+  <script>
+    (function () {
+      var EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
+
+      function t(key) {
+        return window.i18n ? window.i18n.t(key) : key;
+      }
+
+      function validateField(field) {
+        var name = field.name;
+        var val = field.value.trim();
+        var errorEl = document.getElementById(field.id + '-error');
+        var msg = '';
+
+        if (!val) {
+          msg = t('contact.form.error.' + name);
+        } else if (name === 'email' && !EMAIL_RE.test(val)) {
+          msg = t('contact.form.error.emailInvalid');
+        }
+
+        if (errorEl) {
+          errorEl.textContent = msg;
+          errorEl.style.display = msg ? 'block' : 'none';
+        }
+        field.classList.toggle('is-invalid', !!msg);
+        field.setAttribute('aria-invalid', msg ? 'true' : 'false');
+        return !msg;
+      }
+
+      function validateForm(form) {
+        var fields = form.querySelectorAll('[required]');
+        var allValid = true;
+        var firstInvalid = null;
+
+        fields.forEach(function (field) {
+          if (!validateField(field) && allValid) {
+            firstInvalid = field;
+            allValid = false;
+          }
+        });
+
+        if (firstInvalid) firstInvalid.focus();
+        return allValid;
+      }
+
+      function initContactForm() {
+        if (typeof emailjs !== 'undefined') {
+          emailjs.init({ publicKey: 'Shy7gAPUu2DAPBDp7' });
+        }
+
+        var form = document.getElementById('contact-form');
+        if (!form) return;
+
+        // Real-time validation on blur
+        form.querySelectorAll('[required]').forEach(function (field) {
+          field.addEventListener('blur', function () {
+            validateField(field);
+          });
+          field.addEventListener('input', function () {
+            if (field.classList.contains('is-invalid')) {
+              validateField(field);
+            }
+          });
+        });
+
+        form.addEventListener('submit', function (e) {
+          e.preventDefault();
+
+          var statusEl = document.getElementById('form-status');
+          var submitBtn = form.querySelector('[type="submit"]');
+
+          if (!validateForm(form)) return;
+
+          submitBtn.disabled = true;
+          submitBtn.setAttribute('aria-disabled', 'true');
+          statusEl.textContent = t('contact.form.sending');
+          statusEl.className = 'form-status form-status--sending';
+
+          emailjs.sendForm('service_yze7r4f', 'template_onz9wxf', form)
+            .then(function () {
+              statusEl.textContent = t('contact.form.success');
+              statusEl.className = 'form-status form-status--success';
+              form.reset();
+              form.querySelectorAll('.is-invalid').forEach(function (f) {
+                f.classList.remove('is-invalid');
+                f.setAttribute('aria-invalid', 'false');
+              });
+              form.querySelectorAll('.form-error').forEach(function (el) {
+                el.textContent = '';
+                el.style.display = 'none';
+              });
+              submitBtn.disabled = false;
+              submitBtn.removeAttribute('aria-disabled');
+            })
+            .catch(function (error) {
+              console.error('EmailJS error:', error);
+              statusEl.textContent = t('contact.form.errorSend');
+              statusEl.className = 'form-status form-status--error';
+              submitBtn.disabled = false;
+              submitBtn.removeAttribute('aria-disabled');
+            });
+        });
+      }
+
+      // Re-translate visible errors & status when language changes
+      document.addEventListener('languageChanged', function () {
+        var form = document.getElementById('contact-form');
+        if (!form) return;
+
+        // Update visible field errors
+        form.querySelectorAll('.is-invalid[required]').forEach(function (field) {
+          validateField(field);
+        });
+
+        // Update form status message if visible
+        var statusEl = document.getElementById('form-status');
+        if (statusEl && statusEl.textContent) {
+          var cls = statusEl.className;
+          if (cls.indexOf('--sending') !== -1) {
+            statusEl.textContent = t('contact.form.sending');
+          } else if (cls.indexOf('--success') !== -1) {
+            statusEl.textContent = t('contact.form.success');
+          } else if (cls.indexOf('--error') !== -1) {
+            statusEl.textContent = t('contact.form.errorSend');
+          }
+        }
+      });
+
+      // Init after i18n is ready or on DOMContentLoaded
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initContactForm);
+      } else {
+        initContactForm();
+      }
+    })();
+  </script>
+</body>
+</html>

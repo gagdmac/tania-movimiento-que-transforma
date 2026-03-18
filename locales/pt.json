@@ -1,0 +1,409 @@
+{
+  "nav": {
+    "home": "Início",
+    "youtube": "YouTube",
+    "train": "Treina comigo",
+    "about": "Sobre mim",
+    "events": "Eventos",
+    "resources": "Recursos",
+    "contact": "Contacto",
+    "closeMenu": "Fechar menu"
+  },
+  "hero": {
+    "label": "Vida Saudável",
+    "title": {
+      "line1": "Movimento",
+      "line2": "que",
+      "line3": "transforma"
+    },
+    "subtitle": "Ajudo-te a treinar de forma inteligente para ganhares força, controlo corporal e bem-estar real através do movimento que transforma.",
+    "cta1": "Explorar o canal",
+    "cta2": "Treina comigo"
+  },
+  "pillars": {
+    "label": "O teu caminho",
+    "title": "Três formas de começar",
+    "subtitle": "Descobre conteúdo, treina com Tania ou participa em eventos de bem-estar e movimento que transforma."
+  },
+  "pillar": {
+    "yt": {
+      "title": "Canal YouTube",
+      "desc": "Descobre vídeos de movimento que transforma. Rotinas guiadas, técnica e dicas.",
+      "link": "Ver o canal"
+    },
+    "train": {
+      "title": "Treina comigo",
+      "desc": "Aulas de movimento que transforma para fortalecer o teu corpo, melhorar a postura e ganhar bem-estar real.",
+      "link": "Ver aulas"
+    },
+    "events": {
+      "title": "Eventos",
+      "desc": "Eventos presenciais e online de bem-estar, pilates e comunidade. Experiências para reconectar contigo e com o teu corpo.",
+      "link": "Ver eventos"
+    }
+  },
+  "value": {
+    "label": "Proposta de valor",
+    "title": "Treina com inteligência",
+    "text": "Não é apenas um site de aulas nem um catálogo de rotinas. É um espaço para mulheres que procuram uma forma mais inteligente, respeitosa e eficaz de treinar.",
+    "item1": "Fortalecer o teu corpo de forma equilibrada",
+    "item2": "Cuidar do teu centro e melhorar a estabilidade",
+    "item3": "Ganhar controlo corporal e consciência de movimento",
+    "item4": "Treinar com inteligência e sem excessos",
+    "item5": "Sentires-te melhor no teu corpo, com mais força e bem-estar"
+  },
+  "about": {
+    "label": "Sobre Tania",
+    "title": "Olá, sou a Tania Angulo",
+    "text1": "Criei este espaço para acompanhar mulheres que querem sentir-se mais fortes, mais conectadas com o seu corpo e mais seguras na sua forma de treinar.",
+    "text2": "A minha abordagem une movimento que transforma para te ajudar a fortalecer o teu corpo a partir do centro, melhorar o controlo corporal e moveres-te com mais inteligência e bem-estar.",
+    "cta": "Saber mais",
+    "page": {
+      "hero": {
+        "title": "Sobre mim",
+        "subtitle": "Acompanho mulheres a fortalecer o seu corpo, cuidar do seu centro e reconectar com o seu bem-estar."
+      },
+      "story": {
+        "label": "A minha história",
+        "title": "Olá, sou a Tania Angulo",
+        "text1": "Criei este espaço para acompanhar mulheres que querem sentir-se mais fortes, mais conectadas com o seu corpo e mais seguras na sua forma de treinar.",
+        "text2": "A minha abordagem une movimento que transforma para te ajudar a fortalecer o teu corpo a partir do centro, melhorar o controlo corporal e moveres-te com mais inteligência e bem-estar.",
+        "text3": "Não acredito em treinar por obrigação nem em seguir rotinas sem sentido. Acredito num movimento que te ajude a conheceres-te melhor, a cuidares de ti e a construir uma força real, útil e sustentável ao longo do tempo."
+      },
+      "philosophy": {
+        "label": "Filosofia",
+        "title": "A minha visão",
+        "text": "Acredito num treino inteligente, respeitoso e eficaz. Cada sessão é desenhada para te ajudar a conectar com o teu corpo, fortalecer o teu centro e construir bem-estar real."
+      }
+    }
+  },
+  "approach": {
+    "label": "A minha abordagem",
+    "title": "Muito mais que movimento",
+    "subtitle": "O meu trabalho centra-se em acompanhar-te através de uma prática que combina técnica, consciência corporal e bem-estar.",
+    "pilates": "Pilates",
+    "pilates.desc": "Fortalece o teu centro, melhora a postura e desenvolve controlo corporal com exercícios precisos e conscientes.",
+    "strength": "Força funcional",
+    "strength.desc": "Trabalha força, resistência, estabilidade e fluidez com exercícios funcionais e eficazes.",
+    "movement": "Movimento que transforma",
+    "movement.desc": "Sessões focadas em mobilidade, coordenação, conexão corporal e bem-estar integral.",
+    "center": "Centro e estabilidade",
+    "center.desc": "Fortalece o teu centro como base de todo o movimento: equilíbrio, controlo e presença corporal.",
+    "wellness": "Bem-estar real",
+    "wellness.desc": "Não apenas resultados rápidos. Constrói uma relação mais saudável, forte e conectada com o teu corpo."
+  },
+  "events": {
+    "label": "Brevemente",
+    "title": "Eventos em destaque",
+    "subtitle": "Experiências de bem-estar, movimento que transforma e comunidade.",
+    "cta": "Ver todos os eventos",
+    "page": {
+      "hero": {
+        "title": "Eventos",
+        "subtitle": "Eventos presenciais e online de bem-estar, pilates e comunidade."
+      },
+      "upcoming": {
+        "label": "Próximos",
+        "title": "Próximos eventos"
+      },
+      "register": "Solicitar informação",
+      "cta": {
+        "title": "Queres participar?",
+        "text": "Solicita informação sobre os nossos próximos eventos.",
+        "btn": "Contactar"
+      },
+      "event1": {
+        "title": "Retiro de Pilates e Bem-estar",
+        "desc": "Um fim de semana de movimento que transforma, conexão e natureza. Pilates, meditação e nutrição consciente."
+      },
+      "event2": {
+        "title": "Masterclass de Pilates",
+        "desc": "Sessão intensiva de pilates para todos os níveis. Força, resistência, estabilidade e fluidez em 90 minutos."
+      },
+      "event3": {
+        "title": "Workshop de Movimento que Transforma",
+        "desc": "Explora o teu corpo com consciência, técnica e calma. Mobilidade, coordenação, controlo e presença corporal."
+      },
+      "event4": {
+        "title": "Desafio 21 Dias de Pilates",
+        "desc": "21 dias a treinar pilates com rotinas progressivas, comunidade e acompanhamento diário."
+      },
+      "tag": {
+        "inperson": "Presencial",
+        "online": "Online",
+        "retreat": "Retiro",
+        "workshop": "Workshop",
+        "pilates": "Pilates",
+        "challenge": "Desafio"
+      },
+      "categories": {
+        "label": "Categorias",
+        "title": "Tipos de eventos",
+        "retreats": {
+          "title": "Retiros",
+          "desc": "Experiências imersivas de fim de semana que combinam pilates, natureza e bem-estar."
+        },
+        "masterclass": {
+          "title": "Masterclass",
+          "desc": "Sessões intensivas de técnica e prática para aprofundar pilates ou movimento que transforma."
+        },
+        "challenges": {
+          "title": "Desafios online",
+          "desc": "Programas de treino guiado com comunidade, rotinas progressivas e acompanhamento diário."
+        }
+      }
+    }
+  },
+  "testimonials": {
+    "label": "Comunidade",
+    "title": "O que dizem as minhas alunas"
+  },
+  "cta": {
+    "title": "Começa o teu caminho de movimento que transforma",
+    "text": "Convido-te a treinar comigo e a descobrir uma forma mais inteligente, respeitosa e eficaz de cuidar do teu corpo.",
+    "btn1": "Ver aulas",
+    "btn2": "Saber mais",
+    "btn3": "Junta-te ao canal"
+  },
+  "footer": {
+    "desc": "Acompanho mulheres a fortalecer o seu corpo, cuidar do seu centro e reconectar com o seu bem-estar através de movimento que transforma.",
+    "nav": "Navegação",
+    "connect": "Conecta",
+    "rights": "© 2026 Tania Angulo. Todos os direitos reservados.",
+    "quote": "Treina com inteligência. Move-te com consciência. Sente-te mais forte.",
+    "a11y": "Acessibilidade"
+  },
+  "a11y": {
+    "title": "Acessibilidade",
+    "textSize": "Tamanho do texto",
+    "highContrast": "Alto contraste",
+    "darkMode": "Modo escuro",
+    "reduceMotion": "Reduzir movimento",
+    "highlightFocus": "Destacar foco",
+    "underlineLinks": "Sublinhar links",
+    "language": "Idioma",
+    "btnLabel": "Opções de acessibilidade",
+    "close": "Fechar painel"
+  },
+  "yt": {
+    "hero": {
+      "title": "Canal YouTube",
+      "subtitle": "Descobre vídeos de movimento que transforma. Rotinas guiadas, técnica e dicas.",
+      "cta": "Subscreve o canal"
+    },
+    "featured": {
+      "label": "Destaque",
+      "title": "Vídeos em destaque"
+    },
+    "playlists": {
+      "label": "Séries",
+      "title": "Playlists do canal"
+    },
+    "benefits": {
+      "label": "Benefícios",
+      "title": "Porquê seguir o canal?"
+    },
+    "benefit1": {
+      "title": "100% gratuito",
+      "desc": "Acesso livre a todas as rotinas e aulas do canal sem qualquer custo."
+    },
+    "benefit2": {
+      "title": "Técnica e progressão",
+      "desc": "Aprende a técnica correta e progride ao teu ritmo com diferentes níveis."
+    },
+    "benefit3": {
+      "title": "Comunidade ativa",
+      "desc": "Junta-te a mulheres que partilham a mesma busca de bem-estar e força consciente."
+    },
+    "cta": {
+      "title": "Pronta para começar?",
+      "text": "Subscreve o canal e começa o teu caminho de movimento que transforma hoje.",
+      "btn": "Subscreve no YouTube"
+    },
+    "video1": {
+      "title": "Pilates para iniciantes",
+      "desc": "Começa o teu caminho no pilates com esta rotina guiada passo a passo.",
+      "tag": "Pilates"
+    },
+    "video2": {
+      "title": "Força e controlo corporal",
+      "desc": "Sessão completa para trabalhar força, estabilidade e fluidez.",
+      "tag": "Força"
+    },
+    "video3": {
+      "title": "Mobilidade e consciência corporal",
+      "desc": "Desperta o teu corpo com esta sessão de movimento que transforma.",
+      "tag": "Movimento"
+    },
+    "playlist1": {
+      "title": "Pilates em casa",
+      "desc": "Rotinas completas para treinar em casa."
+    },
+    "playlist2": {
+      "title": "Força e estabilidade",
+      "desc": "Fundamentos de força funcional para qualquer nível."
+    },
+    "playlist3": {
+      "title": "Mobilidade diária",
+      "desc": "Rotinas curtas de mobilidade para cada dia."
+    },
+    "playlist4": {
+      "title": "Centro e estabilidade",
+      "desc": "Fortalece o teu centro com estas rotinas focadas."
+    }
+  },
+  "train": {
+    "hero": {
+      "title": "Treina comigo",
+      "subtitle": "Aulas de movimento que transforma para fortalecer o teu corpo, melhorar a postura e ganhar bem-estar real."
+    },
+    "classes": {
+      "label": "Aulas",
+      "title": "As minhas aulas"
+    },
+    "pilates": {
+      "title": "Pilates",
+      "desc": "Aulas para fortalecer o centro, melhorar a postura e desenvolver controlo corporal."
+    },
+    "strength": {
+      "title": "Força funcional",
+      "desc": "Aulas para trabalhar força, resistência, estabilidade e fluidez."
+    },
+    "movement": {
+      "title": "Movimento que transforma",
+      "desc": "Sessões focadas em mobilidade, coordenação, conexão corporal e bem-estar."
+    },
+    "who": {
+      "label": "Para ti",
+      "title": "Para quem é este espaço?",
+      "item1": "Queres fortalecer o teu corpo sem perder a conexão contigo mesma",
+      "item2": "Procuras uma forma de treinar mais consciente e eficaz",
+      "item3": "Interessa-te melhorar a postura, controlo e estabilidade",
+      "item4": "Queres cuidar do teu centro e sentires-te melhor no dia a dia",
+      "item5": "Procuras bem-estar real, não apenas resultados rápidos"
+    },
+    "faq": {
+      "label": "FAQ",
+      "title": "Perguntas frequentes"
+    },
+    "cta": {
+      "title": "Preparada para treinar?",
+      "text": "Começa o teu caminho de movimento que transforma hoje.",
+      "btn1": "Reservar aula",
+      "btn2": "Contactar"
+    }
+  },
+  "resources": {
+    "label": "Conteúdo",
+    "title": "Recursos",
+    "subtitle": "Blog, vídeos, dicas e guias para fortalecer o teu corpo e cuidar do teu bem-estar.",
+    "blog": {
+      "title": "Blog"
+    },
+    "videos": {
+      "title": "Vídeos"
+    },
+    "guides": {
+      "title": "Guias"
+    },
+    "tips": {
+      "title": "Dicas"
+    }
+  },
+  "contact": {
+    "hero": {
+      "label": "Contacto",
+      "title1": "Vamos falar do teu",
+      "title2": "bem-estar",
+      "subtitle": "Escreve-me para agendar uma aula, colaborar ou resolver qualquer dúvida sobre movimento que transforma.",
+      "cta": "Escreve-me"
+    },
+    "form": {
+      "heading": "Formulário de contacto",
+      "name": "Nome",
+      "email": "Email",
+      "subject": "Assunto",
+      "message": "Mensagem",
+      "submit": "Enviar mensagem",
+      "namePh": "O teu nome",
+      "emailPh": "tu@email.com",
+      "subjectPh": "Assunto da tua mensagem",
+      "messagePh": "Escreve a tua mensagem...",
+      "error": {
+        "name": "Por favor, introduz o teu nome.",
+        "email": "Por favor, introduz o teu email.",
+        "emailInvalid": "Por favor, introduz um email válido.",
+        "subject": "Por favor, introduz um assunto.",
+        "message": "Por favor, escreve a tua mensagem."
+      },
+      "sending": "A enviar mensagem...",
+      "success": "Mensagem enviada! Responderei o mais breve possível.",
+      "errorSend": "Erro ao enviar a mensagem. Tenta novamente."
+    },
+    "info": {
+      "email": "Email",
+      "social": "Redes sociais",
+      "location": "Localização",
+      "city": "Alicante, Espanha"
+    },
+    "cta": {
+      "title": "Junta-te à comunidade",
+      "text": "Segue-me nas redes sociais e não percas nenhuma novidade.",
+      "ytLabel": "Subscreve o YouTube",
+      "igLabel": "Segue-me no Instagram"
+    },
+    "motto": "Movimento · Força · Bem-estar",
+    "quote": "\"Treina com inteligência. Move-te com consciência. Sente-te mais forte.\""
+  },
+  "home": {
+    "yt": {
+      "title": "Treina comigo no YouTube",
+      "text": "Aulas gratuitas de movimento que transforma, todas as semanas no meu canal.",
+      "what": "O que vais encontrar?",
+      "item1": "Rotinas guiadas de pilates para todos os níveis",
+      "item2": "Exercícios de força funcional e estabilidade",
+      "item3": "Sessões de mobilidade e movimento que transforma",
+
+      "cta": "Ver o canal"
+    }
+  },
+  "a11yPage": {
+    "hero": {
+      "label": "Acessibilidade",
+      "title": "Declaração de Acessibilidade",
+      "subtitle": "O nosso compromisso com uma web acessível a todas as pessoas."
+    },
+    "contentHeading": "Conteúdo da declaração",
+    "commitment": {
+      "title": "O nosso compromisso",
+      "text": "Tania Angulo compromete-se a garantir a acessibilidade digital para pessoas com diversas capacidades. Trabalhamos continuamente para melhorar a experiência de utilizador de todos os nossos visitantes e aplicar os padrões de acessibilidade pertinentes."
+    },
+    "standards": {
+      "title": "Padrão de conformidade",
+      "text": "Este site aspira a cumprir as Diretrizes de Acessibilidade para o Conteúdo Web (WCAG) 2.2 de nível AA do W3C. Estas diretrizes explicam como tornar o conteúdo web mais acessível a pessoas com deficiência e mais amigável para todos os utilizadores."
+    },
+    "measures": {
+      "title": "Medidas implementadas",
+      "item1": "HTML semântico com estrutura correta de cabeçalhos e regiões landmark.",
+      "item2": "Textos alternativos descritivos em todas as imagens.",
+      "item3": "Navegação completa por teclado com indicadores de foco visíveis.",
+      "item4": "Contraste de cor que cumpre os rácios mínimos de WCAG 2.2 AA.",
+      "item5": "Painel de opções de acessibilidade com tamanho de texto, alto contraste, modo escuro, redução de movimento, destaque de foco e sublinhado de links.",
+      "item6": "Suporte multilingue (espanhol, inglês, português).",
+      "item7": "Design responsivo que se adapta a diferentes dispositivos e tamanhos de ecrã.",
+      "item8": "Link para saltar para o conteúdo principal."
+    },
+    "feedback": {
+      "title": "Comentários",
+      "text": "Agradecemos os teus comentários sobre a acessibilidade deste site. Se encontrares alguma barreira de acessibilidade ou tiveres sugestões de melhoria, por favor contacta-nos:",
+      "emailLabel": "Email:",
+      "formLabel": "Formulário:",
+      "formLink": "Página de contacto",
+      "response": "Tentamos responder aos comentários sobre acessibilidade num prazo de 5 dias úteis."
+    },
+    "date": {
+      "title": "Data",
+      "text": "Esta declaração foi atualizada a 18 de março de 2026."
+    }
+  }
+}

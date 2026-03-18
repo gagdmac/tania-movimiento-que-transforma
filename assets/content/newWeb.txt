@@ -1,0 +1,457 @@
+Usign the skill frontend-design lest create a new website.  after finishing creating all use the skill a11y-options and aria to check a11y and fixx if necessary:
+Rediseño integral web · Tania Angulo
+Objetivo del proyecto
+Rediseñar por completo la web de Tania Angulo partiendo desde cero, con una dirección visual nueva, orgánica, femenina, cálida y contemporánea. La nueva web no debe depender de la estructura actual ni de sus páginas existentes como base de diseño.
+El sitio debe organizarse alrededor de tres pilares principales:
+	1	Canal de YouTube
+	2	Tania como entrenadora / marca personal
+	3	Events como área estratégica del proyecto
+El resultado debe sentirse más humano, más editorial y más conectado con bienestar, fuerza consciente y movimiento inteligente.
+La web debe estar pensada para hacer crecer su ecosistema digital desde esos tres recorridos principales: descubrir contenido en YouTube, entrenar con Tania y participar en eventos.
+
+Base de contenido y posicionamiento
+Tania Angulo acompaña a mujeres a fortalecer su cuerpo, cuidar su centro y reconectar con su bienestar a través de pilates, barre y movimiento consciente.
+Mensaje central de marca
+Entrena con inteligencia. Muévete con conciencia. Siéntete más fuerte.
+Propuesta de valor
+No es solo una web de clases ni un catálogo de rutinas. Es un espacio para mujeres que buscan una forma más inteligente, respetuosa y efectiva de entrenar, mejorar su postura, fortalecer su centro, ganar control corporal y construir bienestar real.
+Tono de la web
+	•	Cercano, profesional y sereno
+	•	Inspirador pero no exagerado
+	•	Femenino sin caer en clichés
+	•	Claro, elegante y accesible
+	•	Con lenguaje cálido, natural y confiable
+
+Tendencias web 2026 seleccionadas y adaptadas al proyecto
+Basar la propuesta en tendencias actuales observadas en Figma para 2026, pero reinterpretadas para esta marca de forma usable y accesible.
+Aplicar especialmente:
+	1	Color con personalidad: usar una paleta viva y amable, llevada hacia tonos pastel suaves y combinaciones orgánicas.
+	2	Tipografía con jerarquía fuerte: titulares expresivos y limpios, combinados con cuerpos muy legibles.
+	3	Motion sutil: microinteracciones, transiciones suaves, entradas progresivas y scroll con intención, sin sobrecargar.
+	4	Dark mode opcional: como parte de las opciones de accesibilidad y personalización.
+	5	Diseño emocional y experiencial: composición con ritmo, bloques respirables, fondos suaves, curvas, formas orgánicas y sensación de bienestar.
+	6	Sostenibilidad digital: priorizar rendimiento, imágenes optimizadas, interfaz ligera y decisiones visuales eficientes.
+No aplicar tendencias que comprometan la usabilidad, como navegación experimental confusa, contrastes insuficientes o animaciones intrusivas.
+
+Dirección visual deseada
+Concepto visual
+Un lenguaje visual orgánico y contemporáneo que combine:
+	•	formas redondeadas
+	•	bloques curvos y contenedores suaves
+	•	fondos con manchas o shapes fluidas muy sutiles
+	•	tarjetas redondeadas
+	•	secciones con ritmo editorial
+	•	sensación de calma, energía y feminidad moderna
+Sensación de marca
+	•	bienestar real
+	•	fuerza femenina
+	•	cuerpo en conexión
+	•	movimiento con intención
+	•	profesionalidad cercana
+Estilo UI
+	•	bordes grandes y suaves
+	•	esquinas redondeadas generosas
+	•	contenedores con padding amplio
+	•	grid limpio pero menos rígido visualmente
+	•	uso estratégico de ilustración abstracta, gradientes suaves o fondos con textura muy ligera
+	•	iconografía simple y amable
+	•	CTA con formas redondeadas y estados claros
+
+Paleta de color base proporcionada
+Usar esta paleta como base de marca:
+	•	#80ff95
+	•	#48cb66
+	•	#ff9580
+	•	#c86653
+	•	#9580ff
+	•	#6153cb
+Adaptación recomendada
+Convertir la paleta en un sistema usable para UI, equilibrando energía con suavidad.
+Tokens sugeridos
+	•	Primary soft green: #80ff95
+	•	Primary green: #48cb66
+	•	Soft coral: #ff9580
+	•	Coral deep: #c86653
+	•	Soft lavender: #9580ff
+	•	Lavender deep: #6153cb
+Neutros complementarios recomendados
+Añadir neutrales suaves para legibilidad y equilibrio:
+	•	#fffdf8 fondo cálido principal
+	•	#f7f4ff fondo secundario lavanda muy claro
+	•	#f5fff7 fondo verde muy claro
+	•	#2b2438 texto principal
+	•	#4a4358 texto secundario
+	•	#ffffff blanco de superficie
+Uso recomendado del color
+	•	fondos principales claros, suaves y respirables
+	•	colores vivos para CTAs, acentos y highlights
+	•	evitar usar los colores saturados como fondo total en grandes bloques de texto
+	•	garantizar contraste AA/AAA según contexto
+
+Requisitos de accesibilidad desde el inicio
+La accesibilidad debe estar integrada desde el principio, no añadida al final.
+Obligatorio antes de diseñar
+Definir el sistema teniendo en cuenta:
+	•	contraste mínimo WCAG AA en textos, botones, inputs y componentes
+	•	jerarquía semántica real en headings
+	•	navegación completa por teclado
+	•	foco visible muy claro
+	•	zonas táctiles adecuadas
+	•	labels visibles y programáticos
+	•	estados no dependientes solo del color
+	•	textos legibles y espaciado suficiente
+	•	diseño responsive accesible
+	•	compatibilidad con screen readers
+	•	reducción de movimiento
+	•	dark mode accesible
+	•	accesibilidad de formularios
+	•	accesibilidad de sliders, tabs, accordions y menús
+	•	enlaces con propósito claro
+Obligatorio al finalizar
+Realizar una revisión de:
+	•	landmarks semánticos
+	•	roles ARIA solo donde sean realmente necesarios
+	•	nombres accesibles correctos
+	•	orden de foco lógico
+	•	errores de contraste
+	•	hover/focus/active/disabled states
+	•	formularios y mensajes de error
+	•	alt text y decoración correctamente marcada
+	•	skip link
+	•	lang correcto por idioma
+	•	selector de idioma accesible
+	•	preferencia de reducción de movimiento
+	•	personalización visual accesible
+
+Opciones de accesibilidad visibles en la interfaz
+Integrar un panel o botón discreto pero accesible de Accessibility Options.
+Funciones sugeridas
+	•	cambiar tamaño de texto (100%, 110%, 120%)
+	•	alto contraste
+	•	dark mode
+	•	reducir movimiento
+	•	resaltar foco
+	•	pausar animaciones decorativas
+	•	subrayar enlaces
+	•	selector de idioma
+Estas opciones deben ser:
+	•	accesibles por teclado
+	•	recordables por preferencia local
+	•	claramente etiquetadas
+	•	no intrusivas
+
+Arquitectura de información nueva
+Rediseñar toda la web desde cero, no solo la home.
+Navegación principal
+	•	Inicio
+	•	YouTube
+	•	Entrena conmigo
+	•	Sobre mí
+	•	Events
+	•	Recursos
+	•	Contacto
+Eliminar dropdowns innecesarios y dejar una navegación más directa, clara y escaneable.
+
+Estructura propuesta por páginas
+1. Inicio
+Objetivo: presentar de forma inmediata el nuevo posicionamiento de la marca y dirigir claramente hacia dos recorridos principales: YouTube y Entrena conmigo, con Events como tercer bloque destacado.
+Secciones
+	1	Hero principal
+	2	Doble entrada: YouTube / Entrena conmigo
+	3	Mensaje de valor
+	4	Sobre Tania
+	5	Mi enfoque
+	6	Eventos destacados
+	7	Recursos / vídeos / contenido reciente
+	8	Testimonios o prueba social
+	9	CTA final
+Copy base para hero
+Pilates, barre y movimiento consciente para mujeres que quieren fortalecer su cuerpo y reconectar con su centro.
+Te ayudo a entrenar de forma inteligente para que ganes fuerza, control corporal y bienestar real a través del movimiento consciente.
+CTA principal: Explora el canal CTA secundario: Entrena conmigo
+
+2. Sobre mí
+Objetivo: generar conexión, confianza y credibilidad.
+Contenido
+	•	presentación personal
+	•	filosofía de trabajo
+	•	trayectoria
+	•	por qué creó este espacio
+	•	visión del entrenamiento consciente
+	•	foto / retrato / identidad personal
+Copy base
+Hola, soy Tania Angulo
+He creado este espacio para acompañar a mujeres que quieren sentirse más fuertes, más conectadas con su cuerpo y más seguras en su forma de entrenar.
+Mi enfoque une pilates, barre y movimiento consciente para ayudarte a fortalecer tu cuerpo desde el centro, mejorar tu control corporal y moverte con más inteligencia y bienestar.
+No creo en entrenar por obligación ni en seguir rutinas sin sentido. Creo en un movimiento que te ayude a conocerte mejor, a cuidarte y a construir una fuerza real, útil y sostenible en el tiempo.
+
+3. Mi enfoque
+Objetivo: explicar la metodología.
+Bloques
+	•	Pilates
+	•	Barre
+	•	Movimiento consciente
+	•	Centro y estabilidad
+	•	Bienestar real
+Copy de introducción
+Mucho más que movimiento
+Mi trabajo está centrado en acompañarte a través de una práctica que combine técnica, conciencia corporal y bienestar para ayudarte a moverte mejor, sentirte más fuerte y construir bienestar desde dentro.
+
+4. Entrena conmigo
+Objetivo: convertir interés en acción y presentar a Tania como entrenadora, guía y acompañante en procesos de bienestar, fuerza y movimiento consciente.
+Posibles bloques
+	•	Clases de pilates
+	•	Clases de barre
+	•	Movimiento consciente
+	•	Programas especiales
+	•	Online / presencial si aplica
+	•	FAQ
+	•	CTA de reserva o contacto
+Copy base
+Entrena conmigo
+Clases de pilates para fortalecer el centro, mejorar la postura y desarrollar control corporal.
+Clases de barre para trabajar fuerza, resistencia, estabilidad y fluidez.
+Sesiones de movimiento consciente enfocadas en movilidad, coordinación, conexión corporal y bienestar.
+
+5. Recursos
+Objetivo: aportar valor y atraer tráfico desde contenido.
+Subáreas
+	•	Blog
+	•	Vídeos
+	•	Consejos
+	•	Recursos descargables
+	•	Guías para mujeres, centro, postura, control corporal, bienestar
+La página debe estar pensada como puente al canal de YouTube.
+
+2. YouTube
+Objetivo: convertir la web en un hub estratégico del canal y en un espacio que ayude a descubrir, organizar y potenciar el contenido audiovisual.
+Secciones sugeridas
+	•	intro del canal
+	•	vídeos destacados
+	•	series o playlists
+	•	categorías de contenido
+	•	beneficios de seguir el canal
+	•	CTA a suscribirse
+Posicionamiento
+La web debe sentirse alineada con una creadora experta, cercana y consistente en su mensaje.
+
+5. Events
+Objetivo: integrar los eventos como una línea principal de la marca dentro del nuevo diseño.
+No se parte de la página actual: se rediseña completamente su estructura visual, UX y contenido dentro del nuevo sistema general del sitio.
+Bloques sugeridos
+	•	hero de eventos
+	•	próximos eventos
+	•	categorías o tipos de evento
+	•	detalle de cada evento
+	•	CTA para registrarse o solicitar información
+	•	archivo o histórico si aplica
+Mejoras requeridas
+	•	lenguaje visual coherente con el resto del sitio
+	•	filtros claros y accesibles si existen
+	•	tarjetas de eventos legibles
+	•	formularios accesibles
+	•	estados claros para plazas, fechas y registro
+
+8. Contacto
+Objetivo: facilitar contacto, colaboración o reserva.
+Elementos
+	•	formulario accesible
+	•	vías de contacto
+	•	redes / YouTube / Instagram si aplica
+	•	CTA final inspiracional
+	•	mensajes de validación accesibles
+
+Copy base estructurado para reutilizar
+Qué encontrarás aquí
+Un espacio para entrenar con intención
+Aquí encontrarás contenidos pensados para ayudarte a:
+	•	fortalecer tu cuerpo de forma equilibrada
+	•	cuidar tu centro y mejorar la estabilidad
+	•	ganar control corporal y conciencia de movimiento
+	•	entrenar con inteligencia y sin excesos
+	•	sentirte mejor en tu cuerpo, con más fuerza y bienestar
+Este no es solo un espacio de rutinas. Es un lugar de movimiento consciente, fuerza femenina, control corporal y bienestar real.
+Para quién es este espacio
+Este espacio es para ti si…
+	•	quieres fortalecer tu cuerpo sin perder la conexión contigo misma
+	•	buscas una forma de entrenar más consciente y efectiva
+	•	te interesa mejorar tu postura, control y estabilidad
+	•	quieres cuidar tu centro y sentirte mejor en tu día a día
+	•	buscas bienestar real, no solo resultados rápidos
+Propuesta de valor
+Entrena con inteligencia. Muévete con conciencia. Siéntete más fuerte.
+Aquí no solo encontrarás clases. Encontrarás una forma de entender el movimiento como una herramienta para fortalecer tu cuerpo, cuidar tu centro y sentirte mejor de una manera más profunda y real.
+Mi propuesta combina técnica, conciencia corporal y bienestar para ayudarte a crear una relación más sana, fuerte y conectada con tu cuerpo.
+Mensaje de marca
+Fuerza, control y bienestar desde el centro
+Quiero ayudarte a descubrir que entrenar no tiene por qué ser una exigencia vacía. Puede ser un espacio de conexión, conciencia y transformación real.
+Porque cuando fortaleces tu cuerpo desde el centro, también fortaleces tu presencia, tu confianza y tu bienestar.
+CTA final
+Empieza tu camino de movimiento consciente
+Te invito a entrenar conmigo y a descubrir una manera más inteligente, respetuosa y efectiva de cuidar tu cuerpo.
+Botones sugeridos:
+	•	Ver clases
+	•	Conocer más
+	•	Únete al canal
+
+Contenidos breves reutilizables
+Bio corta
+Soy Tania Angulo y acompaño a mujeres a fortalecer su cuerpo, cuidar su centro y reconectar con su bienestar a través de pilates, barre y movimiento consciente.
+Bio profesional
+Tania Angulo es instructora de pilates, barre y movimiento consciente. Su enfoque ayuda a mujeres a entrenar de forma inteligente, fortalecer su cuerpo, mejorar su control corporal y reconectar con su centro desde una visión de bienestar real, fuerza y movimiento consciente.
+Encabezado breve
+Movimiento consciente para mujeres que quieren fuerza, control y bienestar real.
+
+Traducciones requeridas
+La web debe prepararse al menos en:
+	•	Español
+	•	Inglés
+	•	Portugués
+Requisitos de internacionalización
+	•	selector de idioma accesible
+	•	atributos lang correctos
+	•	URLs o estructura preparada para traducciones
+	•	evitar texto embebido en imágenes
+	•	consistencia terminológica en navegación y CTA
+Navegación traducida sugerida
+ES
+Inicio · Sobre mí · Mi enfoque · Clases · Recursos · Events · YouTube · Contacto
+EN
+Home · About · My Approach · Classes · Resources · Events · YouTube · Contact
+PT
+Início · Sobre mim · A minha abordagem · Aulas · Recursos · Eventos · YouTube · Contacto
+
+Componentes clave del sistema
+Diseñar un sistema de componentes reusable con estados accesibles.
+Componentes
+	•	header
+	•	mobile navigation
+	•	language switcher
+	•	accessibility options panel
+	•	hero
+	•	card de clase
+	•	card de recurso
+	•	card de evento
+	•	testimonial card
+	•	CTA banner
+	•	footer
+	•	buttons (primary / secondary / ghost)
+	•	tags / pills
+	•	accordion FAQ
+	•	newsletter o suscripción si aplica
+	•	form fields
+	•	video highlight block
+Estilo de componentes
+	•	bordes redondeados grandes
+	•	sombras suaves o casi imperceptibles
+	•	contraste claro entre fondo y superficie
+	•	hover/focus accesibles
+	•	interacción suave y calmada
+
+Requisitos UX/UI concretos
+	•	diseño mobile-first
+	•	ritmo visual limpio y respirable
+	•	jerarquía clara para escaneo rápido
+	•	CTA visibles sin agresividad
+	•	bloques editoriales combinados con tarjetas
+	•	integración natural del contenido de YouTube
+	•	espacio para imagen personal / branding humano
+	•	evitar look corporativo rígido
+	•	evitar look infantil
+	•	evitar exceso de ornamento
+
+Requisitos técnicos de accesibilidad y ARIA
+Semántica
+	•	usar header, nav, main, section, article, aside, footer
+	•	un solo h1 por página
+	•	headings en orden lógico
+	•	listas reales donde corresponda
+	•	botones para acciones, enlaces para navegación
+ARIA
+Usar ARIA solo cuando haga falta realmente. Incluir correctamente:
+	•	aria-label en botones icon-only
+	•	aria-expanded y aria-controls en accordion, menú y paneles
+	•	aria-current="page" en navegación activa
+	•	aria-live en mensajes dinámicos útiles
+	•	aria-pressed solo en toggles verdaderos
+	•	aria-hidden="true" en decoraciones
+Evitar sobreuso de ARIA cuando HTML semántico resuelva el componente.
+Keyboard y focus
+	•	foco siempre visible
+	•	orden de tabulación lógico
+	•	skip link al contenido principal
+	•	traps de foco correctos en overlays si existen
+	•	cierre de modales con Escape
+Motion
+	•	respetar prefers-reduced-motion
+	•	animaciones opcionales y sutiles
+	•	no depender de motion para comprensión
+
+Qué debe entregar el rediseño
+	1	una web completamente nueva desde cero
+	2	una arquitectura centrada en tres pilares: YouTube, entrenadora y Events
+	3	nueva home con recorridos claros hacia esos pilares
+	4	sistema de diseño coherente, orgánico, pastel y accesible
+	5	nuevas páginas y secciones necesarias
+	6	traducciones preparadas
+	7	integración de panel de accesibilidad
+	8	revisión final de accesibilidad y ARIA con correcciones
+
+Prompt maestro para diseño o IA generativa
+Diseña una web completamente nueva para Tania Angulo, instructora de pilates, barre y movimiento consciente, pensada como una plataforma de marca personal con tres pilares muy claros: canal de YouTube, Tania como entrenadora, y Events. La web debe transmitir bienestar real, fuerza femenina, control corporal, conexión con el centro y entrenamiento inteligente.
+Rediseña todo el sitio desde cero, no solo la home. No partas de la estructura actual ni de sus páginas actuales como base de diseño. Construye una arquitectura totalmente nueva, una narrativa nueva y un sistema visual nuevo. Events debe existir como una de las áreas principales del proyecto, pero rediseñada completamente dentro del nuevo sistema.
+La estética debe ser totalmente nueva, con una dirección visual orgánica, suave, pastel, redondeada, moderna y editorial, evitando un estilo rígido o demasiado corporativo. Usa formas fluidas, contenedores con bordes amplios, tarjetas redondeadas, fondos suaves y un look cálido y femenino contemporáneo.
+Inspírate en tendencias web actuales 2026 adaptadas con criterio: color con personalidad, tipografía con jerarquía fuerte, motion sutil, dark mode opcional, experiencia emocional y rendimiento/sostenibilidad digital. No uses tendencias que perjudiquen usabilidad o accesibilidad.
+Usa esta paleta base como sistema de marca:
+	•	#80ff95
+	•	#48cb66
+	•	#ff9580
+	•	#c86653
+	•	#9580ff
+	•	#6153cb
+Transforma estos colores en una UI equilibrada y accesible, con fondos suaves, acentos vivos, neutrales cálidos y contraste AA.
+La navegación principal debe ser:
+	•	Inicio
+	•	YouTube
+	•	Entrena conmigo
+	•	Sobre mí
+	•	Events
+	•	Recursos
+	•	Contacto
+La web debe incluir como mínimo:
+	•	Home completa con hero, doble entrada a YouTube y Entrena conmigo, propuesta de valor, enfoque, eventos, recursos y CTA
+	•	YouTube
+	•	Entrena conmigo
+	•	Sobre mí
+	•	Events
+	•	Recursos
+	•	Contacto
+Preparar el sitio para traducciones en español, inglés y portugués, con selector de idioma accesible y estructura i18n coherente.
+Integrar un panel visible y discreto de Accessibility Options con al menos:
+	•	tamaño de texto
+	•	alto contraste
+	•	dark mode
+	•	reducir movimiento
+	•	resaltar foco
+	•	subrayar enlaces
+	•	selector de idioma
+Aplicar accesibilidad y ARIA desde el principio y revisar al final con fixes. Antes de diseñar, definir contraste, tipografía legible, foco visible, navegación por teclado, landmarks semánticos, formularios accesibles, estados claros y compatibilidad con screen readers. Al terminar, revisar headings, landmarks, focus order, botones, menús, formularios, mensajes de error, aria-label, aria-expanded, aria-controls, aria-current, aria-live, lang, prefers-reduced-motion, skip link y contraste.
+Usar HTML semántico primero y ARIA solo cuando sea necesario.
+El contenido base debe transmitir este mensaje:
+Pilates, barre y movimiento consciente para mujeres que quieren fortalecer su cuerpo y reconectar con su centro.
+Te ayudo a entrenar de forma inteligente para que ganes fuerza, control corporal y bienestar real a través del movimiento consciente.
+Incluir también secciones equivalentes a:
+	•	sobre mí
+	•	qué encontrarás aquí
+	•	mi enfoque
+	•	para quién es este espacio
+	•	propuesta de valor
+	•	servicios y contenidos
+	•	mensaje de marca
+	•	llamada a la acción
+La home debe dejar muy claro desde el primer scroll que hay tres puertas principales:
+	•	descubrir el canal de YouTube
+	•	entrenar con Tania
+	•	explorar los eventos
+Mantener una experiencia mobile-first, elegante, calmada, accesible, humana y enfocada en conversión suave.
+Resultado esperado: una web premium, cálida, orgánica y accesible, alineada con una creadora experta en pilates, barre y movimiento consciente, preparada para crecer como marca, canal de contenido y plataforma de eventos.

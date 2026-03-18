@@ -1,0 +1,409 @@
+{
+  "nav": {
+    "home": "Home",
+    "youtube": "YouTube",
+    "train": "Train with me",
+    "about": "About",
+    "events": "Events",
+    "resources": "Resources",
+    "contact": "Contact",
+    "closeMenu": "Close menu"
+  },
+  "hero": {
+    "label": "Healthy Living",
+    "title": {
+      "line1": "Transformative",
+      "line2": "movement",
+      "line3": ""
+    },
+    "subtitle": "I help you train intelligently to gain strength, body control and real wellness through transformative movement.",
+    "cta1": "Explore the channel",
+    "cta2": "Train with me"
+  },
+  "pillars": {
+    "label": "Your path",
+    "title": "Three ways to start",
+    "subtitle": "Discover content, train with Tania or attend wellness and transformative movement events."
+  },
+  "pillar": {
+    "yt": {
+      "title": "YouTube Channel",
+      "desc": "Discover transformative movement videos. Guided routines, technique and tips.",
+      "link": "View the channel"
+    },
+    "train": {
+      "title": "Train with me",
+      "desc": "Transformative movement classes to strengthen your body, improve posture and gain real wellness.",
+      "link": "View classes"
+    },
+    "events": {
+      "title": "Events",
+      "desc": "In-person and online wellness, pilates and community events. Experiences to reconnect with yourself and your body.",
+      "link": "View events"
+    }
+  },
+  "value": {
+    "label": "Value proposition",
+    "title": "Train with intelligence",
+    "text": "This is not just a class website or a routine catalog. It's a space for women seeking a smarter, more respectful and effective way to train.",
+    "item1": "Strengthen your body in a balanced way",
+    "item2": "Take care of your core and improve stability",
+    "item3": "Gain body control and movement awareness",
+    "item4": "Train with intelligence, without excess",
+    "item5": "Feel better in your body, with more strength and wellness"
+  },
+  "about": {
+    "label": "About Tania",
+    "title": "Hi, I'm Tania Angulo",
+    "text1": "I created this space to support women who want to feel stronger, more connected to their body and more confident in the way they train.",
+    "text2": "My approach combines transformative movement to help you strengthen your body from the core, improve body control and move with more intelligence and wellness.",
+    "cta": "Learn more",
+    "page": {
+      "hero": {
+        "title": "About me",
+        "subtitle": "I support women in strengthening their body, caring for their core and reconnecting with their wellness."
+      },
+      "story": {
+        "label": "My story",
+        "title": "Hi, I'm Tania Angulo",
+        "text1": "I created this space to support women who want to feel stronger, more connected to their body and more confident in the way they train.",
+        "text2": "My approach combines transformative movement to help you strengthen your body from the core, improve body control and move with more intelligence and wellness.",
+        "text3": "I don't believe in training out of obligation or following meaningless routines. I believe in movement that helps you know yourself better, take care of yourself and build real, useful and sustainable strength over time."
+      },
+      "philosophy": {
+        "label": "Philosophy",
+        "title": "My vision",
+        "text": "I believe in intelligent, respectful and effective training. Each session is designed to help you connect with your body, strengthen your core and build real wellness."
+      }
+    }
+  },
+  "approach": {
+    "label": "My approach",
+    "title": "Much more than movement",
+    "subtitle": "My work focuses on guiding you through a practice that combines technique, body awareness and wellness.",
+    "pilates": "Pilates",
+    "pilates.desc": "Strengthen your core, improve posture and develop body control with precise, conscious exercises.",
+    "strength": "Functional strength",
+    "strength.desc": "Work on strength, endurance, stability and fluidity with functional and effective exercises.",
+    "movement": "Transformative movement",
+    "movement.desc": "Sessions focused on mobility, coordination, body connection and integral wellness.",
+    "center": "Core & stability",
+    "center.desc": "Strengthen your core as the foundation of all movement: balance, control and body presence.",
+    "wellness": "Real wellness",
+    "wellness.desc": "Not just quick results. Build a healthier, stronger and more connected relationship with your body."
+  },
+  "events": {
+    "label": "Coming soon",
+    "title": "Featured events",
+    "subtitle": "Wellness, transformative movement and community experiences.",
+    "cta": "View all events",
+    "page": {
+      "hero": {
+        "title": "Events",
+        "subtitle": "In-person and online wellness, pilates and community events."
+      },
+      "upcoming": {
+        "label": "Upcoming",
+        "title": "Upcoming events"
+      },
+      "register": "Request information",
+      "cta": {
+        "title": "Want to participate?",
+        "text": "Request information about our upcoming events.",
+        "btn": "Contact"
+      },
+      "event1": {
+        "title": "Pilates & Wellness Retreat",
+        "desc": "A weekend of transformative movement, connection and nature. Pilates, meditation and mindful nutrition."
+      },
+      "event2": {
+        "title": "Pilates Masterclass",
+        "desc": "Intensive pilates session for all levels. Strength, endurance, stability and fluidity in 90 minutes."
+      },
+      "event3": {
+        "title": "Transformative Movement Workshop",
+        "desc": "Explore your body with awareness, technique and calm. Mobility, coordination, control and body presence."
+      },
+      "event4": {
+        "title": "21-Day Pilates Challenge",
+        "desc": "21 days training pilates with progressive routines, community and daily support."
+      },
+      "tag": {
+        "inperson": "In-person",
+        "online": "Online",
+        "retreat": "Retreat",
+        "workshop": "Workshop",
+        "pilates": "Pilates",
+        "challenge": "Challenge"
+      },
+      "categories": {
+        "label": "Categories",
+        "title": "Event types",
+        "retreats": {
+          "title": "Retreats",
+          "desc": "Immersive weekend experiences combining pilates, nature and wellness."
+        },
+        "masterclass": {
+          "title": "Masterclass",
+          "desc": "Intensive technique and practice sessions to deepen your pilates or transformative movement."
+        },
+        "challenges": {
+          "title": "Online challenges",
+          "desc": "Guided training programs with community, progressive routines and daily support."
+        }
+      }
+    }
+  },
+  "testimonials": {
+    "label": "Community",
+    "title": "What my students say"
+  },
+  "cta": {
+    "title": "Start your transformative movement journey",
+    "text": "I invite you to train with me and discover a smarter, more respectful and effective way to take care of your body.",
+    "btn1": "View classes",
+    "btn2": "Learn more",
+    "btn3": "Join the channel"
+  },
+  "footer": {
+    "desc": "I support women in strengthening their body, caring for their core and reconnecting with their wellness through transformative movement.",
+    "nav": "Navigation",
+    "connect": "Connect",
+    "rights": "© 2026 Tania Angulo. All rights reserved.",
+    "quote": "Train with intelligence. Move with awareness. Feel stronger.",
+    "a11y": "Accessibility"
+  },
+  "a11y": {
+    "title": "Accessibility",
+    "textSize": "Text size",
+    "highContrast": "High contrast",
+    "darkMode": "Dark mode",
+    "reduceMotion": "Reduce motion",
+    "highlightFocus": "Highlight focus",
+    "underlineLinks": "Underline links",
+    "language": "Language",
+    "btnLabel": "Accessibility options",
+    "close": "Close panel"
+  },
+  "yt": {
+    "hero": {
+      "title": "YouTube Channel",
+      "subtitle": "Discover transformative movement videos. Guided routines, technique and tips.",
+      "cta": "Subscribe to the channel"
+    },
+    "featured": {
+      "label": "Featured",
+      "title": "Featured videos"
+    },
+    "playlists": {
+      "label": "Series",
+      "title": "Channel playlists"
+    },
+    "benefits": {
+      "label": "Benefits",
+      "title": "Why follow the channel?"
+    },
+    "benefit1": {
+      "title": "100% free",
+      "desc": "Free access to all routines and classes on the channel at no cost."
+    },
+    "benefit2": {
+      "title": "Technique & progression",
+      "desc": "Learn proper technique and progress at your own pace with different levels."
+    },
+    "benefit3": {
+      "title": "Active community",
+      "desc": "Join women who share the same quest for wellness and conscious strength."
+    },
+    "cta": {
+      "title": "Ready to start?",
+      "text": "Subscribe to the channel and start your transformative movement journey today.",
+      "btn": "Subscribe to YouTube"
+    },
+    "video1": {
+      "title": "Pilates for beginners",
+      "desc": "Start your pilates journey with this step-by-step guided routine.",
+      "tag": "Pilates"
+    },
+    "video2": {
+      "title": "Strength & body control",
+      "desc": "Complete session to work on strength, stability and fluidity.",
+      "tag": "Strength"
+    },
+    "video3": {
+      "title": "Mobility & body awareness",
+      "desc": "Awaken your body with this transformative movement session.",
+      "tag": "Movement"
+    },
+    "playlist1": {
+      "title": "Pilates at home",
+      "desc": "Complete routines to train from home."
+    },
+    "playlist2": {
+      "title": "Strength & stability",
+      "desc": "Functional strength fundamentals for any level."
+    },
+    "playlist3": {
+      "title": "Daily mobility",
+      "desc": "Short daily mobility routines."
+    },
+    "playlist4": {
+      "title": "Core & stability",
+      "desc": "Strengthen your core with these focused routines."
+    }
+  },
+  "train": {
+    "hero": {
+      "title": "Train with me",
+      "subtitle": "Transformative movement classes to strengthen your body, improve posture and gain real wellness."
+    },
+    "classes": {
+      "label": "Classes",
+      "title": "My classes"
+    },
+    "pilates": {
+      "title": "Pilates",
+      "desc": "Classes to strengthen the core, improve posture and develop body control."
+    },
+    "strength": {
+      "title": "Functional strength",
+      "desc": "Classes to work on strength, endurance, stability and fluidity."
+    },
+    "movement": {
+      "title": "Transformative movement",
+      "desc": "Sessions focused on mobility, coordination, body connection and wellness."
+    },
+    "who": {
+      "label": "For you",
+      "title": "Who is this space for?",
+      "item1": "You want to strengthen your body without losing the connection with yourself",
+      "item2": "You're looking for a more conscious and effective way to train",
+      "item3": "You're interested in improving your posture, control and stability",
+      "item4": "You want to care for your core and feel better in your daily life",
+      "item5": "You're looking for real wellness, not just quick results"
+    },
+    "faq": {
+      "label": "FAQ",
+      "title": "Frequently asked questions"
+    },
+    "cta": {
+      "title": "Ready to train?",
+      "text": "Start your transformative movement journey today.",
+      "btn1": "Book a class",
+      "btn2": "Contact"
+    }
+  },
+  "resources": {
+    "label": "Content",
+    "title": "Resources",
+    "subtitle": "Blog, videos, tips and guides to strengthen your body and care for your wellness.",
+    "blog": {
+      "title": "Blog"
+    },
+    "videos": {
+      "title": "Videos"
+    },
+    "guides": {
+      "title": "Guides"
+    },
+    "tips": {
+      "title": "Tips"
+    }
+  },
+  "contact": {
+    "hero": {
+      "label": "Contact",
+      "title1": "Let's talk about your",
+      "title2": "wellbeing",
+      "subtitle": "Write to me to schedule a class, collaborate or resolve any questions about movement that transforms.",
+      "cta": "Write to me"
+    },
+    "form": {
+      "heading": "Contact form",
+      "name": "Name",
+      "email": "Email",
+      "subject": "Subject",
+      "message": "Message",
+      "submit": "Send message",
+      "namePh": "Your name",
+      "emailPh": "you@email.com",
+      "subjectPh": "Subject of your message",
+      "messagePh": "Write your message...",
+      "error": {
+        "name": "Please enter your name.",
+        "email": "Please enter your email.",
+        "emailInvalid": "Please enter a valid email address.",
+        "subject": "Please enter a subject.",
+        "message": "Please write your message."
+      },
+      "sending": "Sending message...",
+      "success": "Message sent! I'll reply as soon as possible.",
+      "errorSend": "Failed to send the message. Please try again."
+    },
+    "info": {
+      "email": "Email",
+      "social": "Social media",
+      "location": "Location",
+      "city": "Alicante, Spain"
+    },
+    "cta": {
+      "title": "Join the community",
+      "text": "Follow me on social media and don't miss any news.",
+      "ytLabel": "Subscribe to YouTube",
+      "igLabel": "Follow me on Instagram"
+    },
+    "motto": "Movement · Strength · Wellness",
+    "quote": "\"Train with intelligence. Move with awareness. Feel stronger.\""
+  },
+  "home": {
+    "yt": {
+      "title": "Train with me on YouTube",
+      "text": "Free transformative movement classes, every week on my channel.",
+      "what": "What will you find?",
+      "item1": "Guided pilates routines for all levels",
+      "item2": "Functional strength and stability exercises",
+      "item3": "Mobility and transformative movement sessions",
+
+      "cta": "View the channel"
+    }
+  },
+  "a11yPage": {
+    "hero": {
+      "label": "Accessibility",
+      "title": "Accessibility Statement",
+      "subtitle": "Our commitment to a web accessible to everyone."
+    },
+    "contentHeading": "Statement content",
+    "commitment": {
+      "title": "Our commitment",
+      "text": "Tania Angulo is committed to ensuring digital accessibility for people of all abilities. We are continually improving the user experience for all our visitors and applying the relevant accessibility standards."
+    },
+    "standards": {
+      "title": "Conformance standard",
+      "text": "This website aims to conform to the Web Content Accessibility Guidelines (WCAG) 2.2 Level AA from the W3C. These guidelines explain how to make web content more accessible to people with disabilities and more user-friendly for everyone."
+    },
+    "measures": {
+      "title": "Measures implemented",
+      "item1": "Semantic HTML with correct heading structure and landmark regions.",
+      "item2": "Descriptive alternative text on all images.",
+      "item3": "Full keyboard navigation with visible focus indicators.",
+      "item4": "Color contrast that meets WCAG 2.2 AA minimum ratios.",
+      "item5": "Accessibility options panel with text size, high contrast, dark mode, reduced motion, focus highlighting, and link underlining.",
+      "item6": "Multilingual support (Spanish, English, Portuguese).",
+      "item7": "Responsive design that adapts to different devices and screen sizes.",
+      "item8": "Skip to main content link."
+    },
+    "feedback": {
+      "title": "Feedback",
+      "text": "We welcome your feedback on the accessibility of this website. If you encounter any accessibility barriers or have suggestions for improvement, please contact us:",
+      "emailLabel": "Email:",
+      "formLabel": "Form:",
+      "formLink": "Contact page",
+      "response": "We aim to respond to accessibility feedback within 5 business days."
+    },
+    "date": {
+      "title": "Date",
+      "text": "This statement was last updated on March 18, 2026."
+    }
+  }
+}

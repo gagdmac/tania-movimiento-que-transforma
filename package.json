@@ -1,0 +1,20 @@
+{
+  "name": "taniaweb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass styles/css/styles.scss css/style.css",
+    "sass:watch": "sass --watch --poll styles/css/styles.scss:css/style.css",
+    "build": "sass styles/css/styles.scss css/style.css --style=compressed --no-source-map",
+    "serve": "browser-sync start --server --files 'css/style.css' '**/*.html' 'js/**/*.js' 'locales/**/*.json' --port 8080 --listen 192.168.1.39 --no-open",
+    "dev": "npm run sass:watch & npm run serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "sass": "^1.98.0"
+  }
+}
